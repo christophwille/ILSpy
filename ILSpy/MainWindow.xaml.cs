@@ -42,6 +42,7 @@ using ICSharpCode.ILSpy.Controls;
 using ICSharpCode.ILSpy.TextView;
 using ICSharpCode.ILSpy.TreeNodes;
 using ICSharpCode.TreeView;
+using MahApps.Metro.Controls;
 using Microsoft.Win32;
 using OSVersionHelper;
 
@@ -50,7 +51,7 @@ namespace ICSharpCode.ILSpy
 	/// <summary>
 	/// The main window of the application.
 	/// </summary>
-	partial class MainWindow : Window
+	partial class MainWindow : MetroWindow
 	{
 		bool refreshInProgress;
 		readonly NavigationHistory<NavigationState> history = new NavigationHistory<NavigationState>();
